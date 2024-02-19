@@ -1,0 +1,227 @@
+/* External CSS for styling */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    color: white;
+text-align: justify;
+  }
+  
+  .navbar {
+    background-color: purple;
+    overflow: hidden;
+    padding: 25px 0px 25px 20px;
+    margin-bottom: 50px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    flex: 1;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-link:hover {
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  
+  
+  .footer {
+    text-align: center;
+  }
+  
+  #home-icon {
+    font-size: 24px;
+  }
+  
+
+  #about-me {
+    text-align: left;
+    color: black;
+    padding: 50px;
+    display: flex;
+  }
+  
+  #about-me img {
+    width: 150px; /* Set the desired width for the profile image */
+    border-radius: 50%; /* Optional: To make the image circular */
+  }
+  
+  #about-me h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  #about-me p {
+    color: #555;
+    font-size: 16px;
+  }
+  .skills-section {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .skill {
+    text-align: center;
+    margin-bottom: 10px;
+    border-style: 1px solid ;
+    border-color: rgb(227, 222, 216);
+    box-shadow: 1px 1px 1px 1px rgb(137, 110, 110);
+    margin-right: 40px;
+    border-radius: 10px;
+    padding-top: 20px;
+  }
+  
+  .skill img {
+    width: 30px; 
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .skill p{
+    margin: 0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+ .skill span{
+    margin-top: 25px;
+    font-weight: 600;
+    padding-top: 10px;
+    
+  }
+  /* Existing styles for other sections */
+
+/* Existing styles for other sections */
+
+#projects {
+  margin: 20px;
+  margin-right: 200px;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  list-style-type: disc;
+}
+
+.project-item {
+  display: block;
+  margin-bottom: 20px;
+  
+}
+
+
+.project-details h3 {
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+.a{
+  margin-left: 25px;
+  padding-bottom: 25px;
+}
+.b{
+  margin-left: 20px;
+}
+/* Existing styles for other sections */
+
+#recommendations-section {
+  margin: 20px;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+
+}
+
+.recommendation {
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-left: 10px;
+  
+}
+
+
+.recommendation-details {
+  flex-basis: 15%;
+  border: 1px solid grey;
+  margin-top: 80px;
+  text-align: left;
+  padding: 30px;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+
+.recommendation-details p{
+  margin-bottom: 10px;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+/* Add your styling for the popup as needed */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e17777;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    opacity: 0.7;
+    z-index: 2;
+    text-align: center; 
+    display: none;/* Ensure the popup is on top of other elements */
+}
